@@ -1,12 +1,15 @@
-import React from 'react'
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
+import Jobs from "./components/Jobs";
+import data from "./data.json";
 
 const App = () => {
   return (
     <div>
-      <h1>Job Listing Project: under construction</h1>      
+      <Header />
+      <Jobs data={data} />
     </div>
-  )
-}
+  );
+};
 
 export default App;

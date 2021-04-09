@@ -1,0 +1,16 @@
+.logo {
+    margin: 30px;
+}
+
+.jobContainer, .companyNameSection {
+    display: flex;
+    align-items: center;
+}
+
+.jobContainer {
+    justify-content:space-between;
+}
+
+.companyNameSection div {
+    margin: 20px;
+}
