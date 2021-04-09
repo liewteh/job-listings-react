@@ -8,7 +8,6 @@ import Languages from "./Languages";
 const Job = ({ jobData }) => {
   const {
     contract,
-    id,
     languages,
     level,
     location,
